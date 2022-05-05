@@ -1,7 +1,7 @@
 import express from "express"
 
 const app = express()
-const port = process.env.port || 8000
+const port = 80
 
 app.get("/",(req,res)=>{
     res.send("Сервер вообщето работает")
